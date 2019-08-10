@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+       <class name="com.leaftaps.leads.testcases.TC_001_LeafTaps_CreateLead"/>
+       <class name="com.leaftaps.leads.testcases.TC_002_LeafTaps_EditLead"/>
+       <class name="com.leaftaps.leads.testcases.TC_003_LeafTaps_DeleteLead"/>
+       <class name="com.leaftaps.leads.testcases.TC_004_LeafTaps_DuplicateLead"/>
+       <class name="com.leaftaps.leads.testcases.TC_005_LeafTaps_MergeLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
