@@ -24,6 +24,7 @@ public class TC_002_LeafTaps_EditLead extends ProjectSpecificMethods{
 	public void leafTapsEditLead(String username,String password,
 			String fname,String newName)
 	{
+		System.out.println("Edit Lead TestCase");
 		new LoginPage(driver,test)
 		.enterUserName(username)
 		.enterPassword(password)
